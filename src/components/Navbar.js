@@ -15,7 +15,7 @@ export default class Navbar extends Component {
               return (
                 <nav style={{ background: theme.ui, color: theme.syntax }}>
                   <h1>Context API</h1>
-                  <div onClick={toggleAuth} style={{ cursor: "pointer" }}>
+                  <div onClick={toggleAuth}>
                     {isAuthenticated ? "Logged in" : "Logged out"}
                   </div>
                   <ul>
